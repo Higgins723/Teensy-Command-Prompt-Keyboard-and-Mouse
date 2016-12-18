@@ -51,6 +51,9 @@ void key(int KEY, int MODIFIER) {
 // this is my main function
 void robot() {
   openapp("cmd");
+  Keyboard.println("cd Desktop");
+  Keyboard.println("echo Hello World >> hi.txt");
+  Keyboard.println("start notepad 'hi.txt'");
 }
 
 void loop() {
